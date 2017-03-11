@@ -12,7 +12,7 @@
       transition: opacity 0.5s linear;
     }
     </style>
-    <script type="text/javascript" src="uceditor.js"></script>
+    <script type="text/javascript" src="uceditors.js"></script>
   </head>
   <body>
     <section class="page-header">
@@ -38,14 +38,14 @@
   </body>
     <script type="text/javascript">
       var demo = document.getElementById('demo');
-      function uceditor_show(){
-        demo.innerHTML = uceditor();
+      function uceditors_show(){
+        demo.innerHTML = uceditors();
         demo.style.opacity = 1;
       }
-      function uceditor_timer(){
+      function uceditors_timer(){
         demo.style.opacity = 0;
-        setTimeout("uceditor_show()",500);
+        setTimeout("uceditors_show()",500);
       }
-      setInterval("uceditor_timer()",5000); 
+      setInterval("uceditors_timer()",5000); 
     </script>
 </html>

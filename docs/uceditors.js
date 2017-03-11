@@ -1,4 +1,4 @@
-function uceditor(){
+function uceditors(){
 	var a = [
 		"全世界80万人疯传",
 		"你不可不知的",
